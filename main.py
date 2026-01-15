@@ -9,6 +9,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+
 # /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Welcome message with inline buttons"""
